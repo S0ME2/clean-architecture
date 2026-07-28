@@ -1,0 +1,22 @@
+# Ignore git history
+.git
+.gitignore
+
+# Ignore local dependencies
+node_modules/
+venv/
+.venv/
+
+# Ignore local environment secrets
+.env
+*.env.local
+
+# Ignore build outputs
+dist/
+build/
+docker-compose.override.yml
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/

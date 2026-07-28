@@ -1,0 +1,6 @@
+CREATE TABLE books (
+    id BIGSERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    is_available BOOLEAN NOT NULL DEFAULT TRUE
+);

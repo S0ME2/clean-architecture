@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+
+# Environment variables (Crucial for security)
+.env
+*.env.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
